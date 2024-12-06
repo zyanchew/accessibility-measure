@@ -17,7 +17,7 @@ The dataset was sourced from [Safegraph], containing anonymized visits of Point-
 
 Accessibility metric: ![Equation to calculate accessibility of a census block group](accessibility_metrics.png)
 
-In this project, accessibility metric indicating how accessible is a certain services to a community based on the number of visit of certain category of POI in the area.
+In this project, accessibility metric indicating how accessible is a certain services to a community based on the number of visit of certain category of POI in the area. The distance decay function is included in the accessibility metric to reflect the sensitivity of distance between community and POI. 
 
 ## Results
 Key insights included:
