@@ -12,12 +12,14 @@ The dataset was sourced from [Safegraph], containing anonymized visits of Point-
 
 ## Methodology
 1. Data preprocessing: Cleaning and organizing the data. (The raw datasets from Safegraph is huge and it is not the main focus for this project objective. Therefore, this step is pre-done and the pre-processed dataset had been uploaded in respiratory for the following step)
-2. Quantifying accessibility metrics for communities.
+2. Accessibility measurement: Quantifying accessibility metrics for each communnity, and calculating the changes in accessibility before, during and after the event.
 3. Trend analysis: Examining communities response patterns during different phases of the event.
 
 Accessibility metric: ![Equation to calculate accessibility of a census block group](accessibility_metrics.png)
 
-In this project, accessibility metric indicating how accessible is a certain services to a community based on the number of visit of certain category of POI in the area.
+In this project, accessibility metric indicating how accessible is a certain services to a community based on the number of visit of certain category of POI in the area. The distance decay function is included in the accessibility metric to reflect the sensitivity of distance between community and POI.
+
+To assess the ability of community in response to extreme event, the changes in accessibility before, during, and after the event is claculated. Based on communities response patterns during different phases of the  event, agglomerative clustering algorithm is used for trend analysis. 
 
 ## Results
 Key insights included:
