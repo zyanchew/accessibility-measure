@@ -11,7 +11,7 @@ The dataset was sourced from [Safegraph], containing anonymized visits of Point-
 - Date range
 
 ## Methodology
-1. Data preprocessing: Cleaning and organizing the data. (This step is pre-done and the pre-processed dataset had been uploaded in respiratory for the following step)
+1. Data preprocessing: Cleaning and organizing the data. (The raw datasets from Safegraph is huge and it is not the main focus for this project objective. Therefore, this step is pre-done and the pre-processed dataset had been uploaded in respiratory for the following step)
 2. Quantifying accessibility metrics for communities.
 3. Trend analysis: Examining communities response patterns during different phases of the event.
 
