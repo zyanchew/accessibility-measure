@@ -1,7 +1,7 @@
 # Dynamic Accessibility Measurement
 
 ## Overview
-This project is part of my bachelor's graduation thesis. It focuses on analyzing human mobility data to study accessibility changes in response to extreme events. By examining mobility data before, during, and after the event, this project aims to identify trends in community resilience and recovery. The accessibility to gas station of each census block group in the study area before, during, and after a hurricane event is calculated.
+This project is part of my bachelor's graduation thesis. It focuses on analyzing human mobility data to study accessibility changes in response to extreme events. By examining mobility data before, during, and after the event, this project aims to identify trends in community resilience and recovery. The accessibility to gas station of each census block group in the study area is calculated for different phases of a hurricane event.
 
 ## Data
 The dataset was sourced from [Safegraph], containing anonymized visits of Point-of-Interests (POI). The data includes:
