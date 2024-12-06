@@ -10,10 +10,11 @@ import pandas as pd
 import numpy as np
 import os
 
+
 # Base file path
-file = '/Users/zyanchew/Documents/GitHub/accessibility-measure/data'
-file1 = '/Users/zyanchew/Documents/GitHub/accessibility-measure/data/patterns'
-file2 = '/Users/zyanchew/Documents/GitHub/accessibility-measure/data/distancedecay'
+file = '/Users/zyanchew/Desktop/accessibility-measure/data'
+file1 = '/Users/zyanchew/Desktop/accessibility-measure/data/patterns'
+file2 = '/Users/zyanchew/Desktop/accessibility-measure/data/distancedecay'
 
 # Path to the decay parameters CSV file
 decay_params_file = file2 + '/decayparam_gas.csv'
