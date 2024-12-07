@@ -12,8 +12,8 @@ import numpy as np
 import os
 
 # File paths
-input_file = '/Users/zyanchew/Desktop/accessibility-measure/data/accessibility/combined_accessibility.csv'
-output_file_changes = '/Users/zyanchew/Desktop/accessibility-measure/data/accessibility/accessibility_changes.csv'
+input_file = '/Users/zyanchew/Desktop/accessibility-measure/results/table/accessibility/combined_accessibility.csv'
+output_file_changes = '/Users/zyanchew/Desktop/accessibility-measure/results/table/accessibility/accessibility_changes.csv'
 save_dir = '/Users/zyanchew/Desktop/accessibility-measure/results/figures/'
 
 # Function for moving average
@@ -44,13 +44,13 @@ smoothed_df = pd.DataFrame(averaged_data, columns=accessibility_cols[2:], index=
 
 
 # Calculate mean for pre-event period (using first 8 time periods)
-pre_event_columns = accessibility_cols[0:8]
-mean_values = data[pre_event_columns].mean(axis=1)
+pre_event_columns = accessibility_cols[2:10]
+mean_values = smoothed_df[pre_event_columns].mean(axis=1)
 
 # Calculate the accessibility change as percentage relative to the mean
 change_data = pd.DataFrame()
-for period in accessibility_cols[1:]:
-    change_data[f'change{period[13:]}'] = (data[period] - mean_values) / mean_values  # Remove 'accessibility_' prefix
+for period in accessibility_cols[2:]:
+    change_data[f'change{period[13:]}'] = (smoothed_df[period] - mean_values) / mean_values  # Remove 'accessibility_' prefix
 
 # Save accessibility changes to CSV
 change_data.to_csv(output_file_changes)

@@ -10,8 +10,8 @@ import pandas as pd
 import os
 
 # Define the base directory for the data
-base_directory = "/Users/zyanchew/Desktop/accessibility-measure/data/accessibility"  
-output_file = "/Users/zyanchew/Desktopb/accessibility-measure/data/accessibility/combined_accessibility.csv"  
+base_directory = "/Users/zyanchew/Desktop/accessibility-measure/results/table/accessibility"  
+output_file = "/Users/zyanchew/Desktop/accessibility-measure/results/table/accessibility/combined_accessibility.csv"  
 
 # Get a list of all CSV files in the directory
 file_paths = [

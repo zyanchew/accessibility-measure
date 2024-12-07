@@ -12,7 +12,7 @@ import os
 
 
 # Base file path
-file = '/Users/zyanchew/Desktop/accessibility-measure/data'
+file = '/Users/zyanchew/Desktop/accessibility-measure/results/table'
 file1 = '/Users/zyanchew/Desktop/accessibility-measure/data/patterns'
 file2 = '/Users/zyanchew/Desktop/accessibility-measure/data/distancedecay'
 

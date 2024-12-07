@@ -11,7 +11,7 @@ import matplotlib.pyplot as plt
 import os
 
 # Path to your combined data file
-file = '/Users/zyanchew/Desktop/accessibility-measure/data/accessibility/combined_accessibility.csv'
+file = '/Users/zyanchew/Desktop/accessibility-measure/results/table/accessibility/combined_accessibility.csv'
 save_dir = '/Users/zyanchew/Desktop/accessibility-measure/results/figures/'
 
 # Read the data
