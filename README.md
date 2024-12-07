@@ -24,7 +24,7 @@ To assess community responses to extreme events, the accessibility changes befor
 
 1. accessibility_metrics.py : Calculates accessibility metrics for each CBG for gas stations.
 2. merge.py: Merges weekly data files into a single dataset for easier analysis.
-3. plot.py: Plots the average accessibility metric for all CBGs in Duval County to analyze trends over the study period.
+3. plot.py: Plots the average accessibility metric for CBGs in the study area to analyze trends over the study period.
 4. accessibility_change.py: Calculates changes in accessibility during and after the hurricane event.
 5. clustering.py: Applies agglomerative clustering to identify patterns in community response.
 6. errorbar.py: Visualizes community response and recovery patterns using error bar plots.
