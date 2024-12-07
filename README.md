@@ -23,6 +23,13 @@ Accessibility changes: ![Equation to calculate the changes in accessibility](ima
 
 To assess the ability of community in response to extreme event, the changes in accessibility before, during, and after the event is claculated. Based on communities response patterns during different phases of the  event, agglomerative clustering algorithm is used for trend analysis. 
 
+## Getting start
+
+1. accessibility_metrics.py : Calculate the accessibility metric for each census block group to gas station.
+2. merge.py: Since the data for each week is saved seperately, and to ease the future analysis, we combine all the data into one file.
+3. plot.py: Plot the averange value of accessibility metric of all census block group in duval county to assess the accessibility over study period.
+4. accessibility_change.py: To examine the changes in accessibility during and after the huricance event.
+   
 ## Results
 Key insights included:
 - Changes in accessibility metrics pre- and post-event.
