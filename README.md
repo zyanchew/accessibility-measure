@@ -32,7 +32,9 @@ To assess community responses to extreme events, the accessibility changes befor
 ## Results
 Key insights included:
 - Changes in Accessibility: Significant variations in accessibility metrics pre- and post-event.
-- Community Resilience: Clustering analysis reveals different patterns of community recovery and response.
+  ![Figure of accessibility metric](results/figures/accessibility_mean_std.png)
+- Community Resilience: Clustering analysis reveals different patterns of community response and recovery.
+  ![Figure of community response and recovery patterns](results/figures/community_clusters.png)
 
 
 
